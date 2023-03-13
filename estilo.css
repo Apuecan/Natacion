@@ -1,0 +1,132 @@
+
+.entrada{
+padding: 0.8em;
+}
+.entrada img{
+    width: 5em;
+    border-radius: 3em;
+   }
+.menu {
+    text-align: left;
+}
+.titulo {
+    
+    background-image:url(Piscina.jpg);
+    width: 100%;
+    height: 20em;
+    flex-direction: column; 
+    background-size: cover;
+    
+}
+.titulo h1 {
+    text-align: center;
+    margin:auto;
+    font-size: 8em;
+    color: rgb(15, 15, 15);
+    font-family: 'Signika', sans-serif;
+}
+.introduccion{
+    padding: 0.1em 0.4em 0.1em;
+    font-size: 1.2em;
+    background-color: #3d3d3d;
+    font-family: 'Signika', sans-serif;
+    text-align:justify;
+   
+    border:black thin solid;
+}
+.introduccion h5{ 
+    color: #d7d7d7;
+    font-family: 'Signika', sans-serif;
+
+}
+.articulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: center ;
+}
+
+.etiqueta{
+    width: 15em;
+    background-color:#3d3d3d;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1.5em;
+    border: black thin solid;
+}
+.articulo a:visited, .articulo a:link, .articulo a:active {
+    text-decoration: none;
+    border-radius: 3em;
+    color: black ;
+
+}
+.articulo a:hover{
+box-shadow: 5px 5px 10px black;
+transition: .5s;
+}
+
+.articulo a {
+    transition: .5s;;
+}
+
+.marcoetiqueta{
+    border-radius: 5em;
+}
+.marcoetiqueta img{
+    height: 100%;
+    max-width: 100%;
+    height: 12em;
+    border-radius: 7em;
+}
+.textoetiqueta H2 {
+    width: 3em 0;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+}
+.entrenamientos{
+    background-color: #3d3d3d;
+    font-size: 2em;
+    border-radius: 2em;
+    text-align: center;
+}
+.tituloentrenamientos{
+    text-align: center;
+    margin:auto;
+    font-size: 2em;
+    color: rgb(15, 15, 15);
+    font-family: 'Signika', sans-serif;
+    background-color: #3d3d3d;
+}
+.entrenamientos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: center ;
+}
+
+.entreno{
+    width: 20em;
+    font-size: .6em;
+    background-color:#81c3f6;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1.5em;
+    border: rgb(195, 36, 158) thin solid;
+}
+.marcoentreno{
+    height: 100%;
+    max-width: 100%;
+    font-size: 1.1em;
+    height: 2em;
+    border-radius: 7em;
+    font-family: 'Signika', sans-serif;
+}
+.textoentreno {
+    width: 3em 0;
+    color: aliceblue;
+    text-align: left;
+    
+}
