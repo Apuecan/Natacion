@@ -21,7 +21,7 @@ padding: 0.8em;
 .titulo h1 {
     text-align: center;
     margin:auto;
-    font-size: 4em;
+    font-size: 15vw;
     color: rgb(15, 15, 15);
     font-family: 'Signika', sans-serif;
 }
@@ -114,7 +114,7 @@ transition: .5s;
     margin: 1em;
     padding: 1em;
     border-radius: 1.5em;
-    border: rgb(195, 36, 158) thin solid;
+    border: rgb(8, 8, 8) thin solid;
 }
 .marcoentreno{
     height: 100%;
@@ -126,7 +126,7 @@ transition: .5s;
 }
 .textoentreno {
     width: 3em 0;
-    color: aliceblue;
+    color: black;
     text-align: left;
     
 }
